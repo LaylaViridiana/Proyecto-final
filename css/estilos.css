@@ -1,0 +1,32 @@
+body {
+background-image: url('../imagenes/fondo.jpg');
+background-size: cover;
+background-repeat:no-repeat;
+color:white;
+font-family:Noto-Sans-Japonés;
+font-size: 20px;
+
+}
+
+header {
+background-color: rgba(0, 0, 143, 0.678);
+border-radius: 25px;
+display: flex;
+justify-content: flex-start; 
+align-items: center;
+}
+
+img {
+ height: 100px;
+}
+
+#lista-de-personajes {
+background-color: rgba(0, 0, 143, 0.678);
+border-radius: 25px;
+}
+
+#logo {
+height: 150px;
+border-radius: 100px;
+}
+
