@@ -1,32 +1,74 @@
 body {
-background-image: url('../imagenes/fondo.jpg');
-background-size: cover;
-background-repeat:no-repeat;
-color:white;
-font-family:Noto-Sans-Japonés;
-font-size: 20px;
-
+    background-image: url('../imagenes/fondo.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    color:white;
+    font-family:Noto-Sans-Japonés;
+    font-size: 20px;
 }
 
 header {
-background-color: rgba(0, 0, 143, 0.678);
-border-radius: 25px;
-display: flex;
-justify-content: flex-start; 
-align-items: center;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
 }
 
-img {
- height: 100px;
+h1 {
+    color: red;
+    transition: 2s;
 }
 
-#lista-de-personajes {
-background-color: rgba(0, 0, 143, 0.678);
-border-radius: 25px;
+h1:hover {
+    font-size: 50px;
+    transition: 2s;
 }
 
 #logo {
-height: 150px;
-border-radius: 100px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 20px;
+    transition:1s ;
+}
+
+#logo:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+#seleccion-de-personajes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#seleccion-de-personajes div{
+    border-style: solid;
+    border-color:rgb(0, 61, 83);
+    background-color:rgb(0, 88, 121);
+    margin: 15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+    filter: blur(2px);
+}
+
+div#seleccion-de-personajes div:hover{
+    background-color:#00a2ff;
+    color: rgb(0, 0, 0);
+    filter:blur(0px);
+    transition: 0.5s;
+}
+
+#seleccion-de-personajes img {
+    height: 150px;
+}
+
+.fondo-color {
+    background-color: rgba(0, 0, 143, 0.678);
+    border-radius: 25px;
+    margin: 30px;
 }
 
