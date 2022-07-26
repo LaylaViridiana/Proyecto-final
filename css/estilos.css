@@ -18,6 +18,12 @@ h1 {
     transition: 2s;
 }
 
+div a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
 h1:hover {
     font-size: 50px;
     transition: 2s;
@@ -39,7 +45,6 @@ h1:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: center;
 }
 
 #seleccion-de-personajes div{
@@ -53,6 +58,8 @@ h1:hover {
     padding: 10px;
     transition: 0.5s;
     filter: blur(2px);
+    display: flex;
+    flex-direction: column;
 }
 
 div#seleccion-de-personajes div:hover{
@@ -66,9 +73,25 @@ div#seleccion-de-personajes div:hover{
     height: 150px;
 }
 
+.informacion {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
 .fondo-color {
     background-color: rgba(0, 0, 143, 0.678);
     border-radius: 25px;
     margin: 30px;
 }
 
+.informacion img {
+    height: 200px;
+    margin: 10px;
+}
+
+.informacion p {
+    margin: 10px;
+}
